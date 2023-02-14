@@ -1,11 +1,23 @@
 @import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+}
 
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
 
 body {
     background: hotpink;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    padding: 1rem;
+    font-family: 'Inter', sans-serif;
 }
 
 img {
@@ -13,15 +25,51 @@ img {
     height: auto;
 }
 
-.header { background: yellowgreen; min-height: 5vh; display: flex; flex-direction: row;}
+.header {
+    background: yellowgreen;
+    min-height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+}
 
-.main {background: lightblue; flex: 1;}
+.main {
+    background: lightblue;
+    flex: 1;
+}
 
-.footer {background: salmon; min-height: 10vh; border-top: 1px solid black;}
+.footer {
+    background: salmon;
+    min-height: 10vh;
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+}
 
 
 .logo {
-width: 5rem;
-background: red;
+    width: 5rem;
+    background: red;
 }
-.navigation-menu {background: skyblue;}
+
+.navigation-menu {
+    background: skyblue;
+    display: flex;
+    flex-direction: row;
+    width: 10rem;
+    justify-content: space-between;
+}
+
+.work-grid{
+    display:grid;
+    width: 100%;
+}
+
+.grid-item{
+width: 33.3333%;
+background: greenyellow; 
+
+}
