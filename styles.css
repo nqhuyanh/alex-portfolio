@@ -1,5 +1,6 @@
 @import url(reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
     box-sizing: border-box;
@@ -24,6 +25,15 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+/* Typography Styles */
+
+h1 {font-size: 2.525rem;}
+
+a {text-decoration: none;}
+a:hover, a:active {text-decoration: underline; color: black;}
+
+
 
 .header {
     background: yellowgreen;
@@ -63,13 +73,18 @@ img {
     justify-content: space-between;
 }
 
-.work-grid{
-    display:grid;
+.work-grid {
+    display: grid;
     width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-gap: 1rem;
 }
 
-.grid-item{
-width: 33.3333%;
-background: greenyellow; 
+
+
+.grid-item {
+    width: 100%;
+    background: yellowgreen;
+    min-height: 450px;
 
 }
