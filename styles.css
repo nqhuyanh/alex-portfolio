@@ -1,5 +1,11 @@
+@import url(reset.css);
+
+
 body {
     background: hotpink;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 img {
@@ -7,7 +13,15 @@ img {
     height: auto;
 }
 
-.logo {
-width: 20%;
+.header { background: yellowgreen; min-height: 5vh; display: flex; flex-direction: row;}
 
+.main {background: lightblue; flex: 1;}
+
+.footer {background: salmon; min-height: 10vh; border-top: 1px solid black;}
+
+
+.logo {
+width: 5rem;
+background: red;
 }
+.navigation-menu {background: skyblue;}
