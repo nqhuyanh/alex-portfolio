@@ -159,9 +159,6 @@ a:active {
 
 /*holding page*/
 
-.holding-page-container{
-}
-
 .holding-page-container-warp{
     display: flex;
     flex-grow: 1;
