@@ -37,7 +37,6 @@ p {
     font-family: 'lanord', sans-serif;
     font-size: 1em;
     line-height: 1.5em;
-    margin-bottom: 1em;
 }
 
 h1 {
@@ -161,7 +160,19 @@ a:active {
 /*holding page*/
 
 .holding-page-container{
+}
+
+.holding-page-container-warp{
     display: flex;
-    justify-content: space-between;
+    flex-grow: 1;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: blue;
+}
+
+.holding-page-copyright{
+    display: flex;
+    justify-content: center;
+    background: orange;
 }
