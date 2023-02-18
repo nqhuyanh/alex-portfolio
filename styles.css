@@ -160,8 +160,8 @@ a:active {
 
 /*holding page*/
 
-.holding-container{
+.holding-page-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
