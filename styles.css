@@ -173,3 +173,22 @@ a:active {
     justify-content: center;
     background: orange;
 }
+
+
+
+ /* Adjustments for desktop start here */
+
+
+@media only screen and (min-width: 992px) { 
+    
+    
+
+
+
+
+
+
+
+    
+    
+}
