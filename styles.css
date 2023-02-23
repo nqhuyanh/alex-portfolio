@@ -59,7 +59,7 @@ h3 {
 
 h4 {
     font-family: 'lanord', sans-serif;
-    font-size: 2.441rem;
+    font-size: 2.2rem;
     line-height: 1.3;
 }
 
@@ -96,6 +96,8 @@ a:active {
     background: orange;
 }
 
+/* holding page */
+
     .header {
         background: yellowgreen;
         min-height: 5vh;
@@ -104,21 +106,25 @@ a:active {
         justify-content: space-between;
         align-items: center;
         position: sticky;
+        top: 1rem;
     }
 
     .navblack {
         height: 0.1rem;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 1;
+        margin-bottom: 1;
         position: sticky;
+        top: 1;
+        border: 0;
         display: block;
         background: #000;
-        top: 0;
     }
 
     .main {
         background: lightblue;
         flex: 1;
-        overflow: hidden;
-        text-overflow: clip;
         width: 100%;
     }
 
@@ -167,7 +173,7 @@ a:active {
         margin-top: 1;
         margin-bottom: 1;
         position: sticky;
-        top: 5vh;
+        top: 1;
         border: 0;
         display: block;
         background: #000;
@@ -199,90 +205,9 @@ a:active {
 
 @media only screen and (min-width: 992px) {
 
-    .header {
-        background: yellowgreen;
-        min-height: 5vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        position: sticky;
-        top: 1;
-    }
+    h4 {
+        font-size: 2.441rem;
 
-    .navblack {
-        height: 0.1rem;
-        position: sticky;
-        display: block;
-        background: #000;
-        top: 0;
-    }
-
-    .main {
-        background: lightblue;
-        flex: 1;
-        overflow: hidden;
-    }
-
-    .footer {
-        background: salmon;
-        min-height: 10vh;
-        border-top: 1px solid black;
-        display: flex;
-        align-items: center;
-    }
-
-
-    .logo {
-        width: 5rem;
-        background: red;
-    }
-
-    .navigation-menu {
-        background: skyblue;
-        display: flex;
-        flex-direction: row;
-        width: 10rem;
-        justify-content: space-between;
-    }
-
-    .work-grid {
-        display: grid;
-        width: 100%;
-        grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-        grid-gap: 1rem;
-    }
-
-
-    .grid-item {
-        width: 100%;
-        background: yellowgreen;
-        min-height: 450px;
-
-    }
-
-    /*about page for desktop*/
-
-
-    .about-container {
-        background: lightblue;
-        flex: 1;
-        display: grid;
-        grid-template-columns: 3fr 1fr 1fr;
-        grid-template-rows: minmax(max-content, 1fr) minmax(100px px, max-content);
-        column-gap: 10rem;
-    }
-
-    .bio {
-        margin-top: 2rem;
-    }
-
-    .experience {
-        margin-top: 2rem;
-    }
-
-    .contact {
-        padding-bottom: 1rem;
     }
 
 }
