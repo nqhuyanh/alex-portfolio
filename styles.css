@@ -39,6 +39,7 @@ h2 {
 
 h3 {
     font-size: 1.424rem;
+    line-height: 2rem;
 }
 
 h4 {
@@ -99,12 +100,9 @@ a:active {
         height: 0.1rem;
         margin-left: 0rem;
         margin-right: 0rem;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
         position: sticky;
-        top: 1rem;
+        top: 11vh;
         border: 0rem;
-        display: block;
         background: #000;
     }
 
@@ -131,7 +129,7 @@ a:active {
         background: skyblue;
         display: flex;
         flex-direction: row;
-        width: 10rem;
+        width: 8rem;
         justify-content: space-between;
     }
 
@@ -142,28 +140,83 @@ a:active {
         grid-gap: 1rem;
     }
 
+    img {
+        height: 100%;
+    }
 
-    .grid-item {
+    .grid-item-1 {
         width: 100%;
         background: yellowgreen;
         min-height: 450px;
+    }
 
+    .grid-item-2 {
+        width: 100%;
+        background: yellowgreen;
+        min-height: 450px;
+    }
+
+    .grid-item-3 {
+        width: 100%;
+        background: yellowgreen;
+        min-height: 450px;
+    }
+
+    .grid-item-4 {
+        width: 100%;
+        background: yellowgreen;
+        min-height: 450px;
+    }
+
+    .grid-item-5 {
+        width: 100%;
+        background: yellowgreen;
+        min-height: 450px;
+    }
+
+    .grid-item-6 {
+        width: 100%;
+        background: yellowgreen;
+        min-height: 450px;
+    }
+
+    .grid-item-7 {
+        width: 100%;
+        background: yellowgreen;
+        min-height: 450px;
+    }
+
+    .grid-item-8 {
+        width: 100%;
+        background: yellowgreen;
+        min-height: 450px;
+    }
+
+    .grid-item-9 {
+        width: 100%;
+        background: yellowgreen;
+        min-height: 450px;
+    }
+
+    .grid-item-10 {
+        width: 100%;
+        background: yellowgreen;
+        min-height: 450px;
+    }
+
+    .grid-item-11 {
+        width: 100%;
+        background: yellowgreen;
+        min-height: 450px;
+    }
+
+    .grid-item-12 {
+        width: 100%;
+        background: yellowgreen;
+        min-height: 450px;
     }
 
     /*about page*/
-
-    .navblack {
-        height: 0.1rem;
-        margin-left: 0rem;
-        margin-right: 0rem;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        position: sticky;
-        top: 1rem;
-        border: 0;
-        display: block;
-        background: #000;
-    }
 
     .about-container {
         background: lightblue;
@@ -177,11 +230,11 @@ a:active {
     }
 
     .experience {
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
     }
 
     .education {
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
     }
 
     .awards-or-recognition {
@@ -194,7 +247,7 @@ a:active {
 
     .social-media-item {
         font-size: 1.125rem;
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
     }
 
     .main-heading-experience {
@@ -209,12 +262,12 @@ a:active {
         margin-bottom: 1rem;
     }
 
-    .business-name {
-        margin-bottom: 1rem;
+    .job-date {
+        margin-bottom: 1.5rem;
     }
 
     .awards-or-regconition-date {
-        margin-bottom: 1rem;
+        margin-bottom: 1.5rem;
     }
     
 
@@ -223,5 +276,18 @@ a:active {
 
 @media only screen and (min-width: 992px) {
 
+    .navblack {
+        height: 0.1rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        position: sticky;
+        top: 10vh;
+        border: 0rem;
+        background: #000;
+    }
+
+    .about-container {
+        grid-template-columns: 1fr 1fr;
+    }
 
 }
