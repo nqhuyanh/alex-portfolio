@@ -98,16 +98,8 @@ a:active {
     align-items: center;
     position: sticky;
     top: 1rem;
-}
-
-.navblack {
-    height: 0.1rem;
-    margin-left: 0rem;
-    margin-right: 0rem;
-    position: sticky;
-    top: 11vh;
-    border: 0rem;
-    background: #000;
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
 }
 
 .main {
@@ -278,16 +270,44 @@ a:active {
     margin-bottom: 1rem;
 }
 
+.job-position-1 {
+    margin-bottom: 0.25rem;
+}
+
+.business-name {
+    margin-bottom: 0.25rem;
+}
+
+.job-date {
+    margin-bottom: 1rem;
+}
+
 .main-heading-education {
     margin-bottom: 1rem;
+}
+
+.program-name-1 {
+    margin-bottom: 0.25rem;
+}
+
+.school-name {
+    margin-bottom: 0.25rem;
 }
 
 .main-heading-awards-or-recognition {
     margin-bottom: 1rem;
 }
 
-.job-date {
-    margin-bottom: 1rem;
+.awards-or-recognition-title-1 {
+    margin-bottom: 0.25rem;
+}
+
+.awards-or-recognition-title-2 {
+    margin-bottom: 0.25rem;
+}
+
+.awards-or-recognition-link {
+    margin-bottom: 0.25rem;
 }
 
 .awards-or-recognition-date {
