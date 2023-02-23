@@ -143,10 +143,6 @@ a:active {
     grid-gap: 1rem;
 }
 
-img {
-    height: 100%;
-}
-
 .grid-item-1 {
     width: 100%;
     background: yellowgreen;
