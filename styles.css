@@ -1,5 +1,5 @@
 @import url(reset.css);
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
 
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
@@ -18,7 +18,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     padding: 1rem;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope', sans-serif;
 }
 
 img {
@@ -30,31 +30,34 @@ img {
 
 
 h1 {
-    font-size: 1.125rem;
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 h2 {
-    font-size: 1.266rem;
+    font-size: 1.125rem;
 }
 
 h3 {
+    font-size: 1.266rem;
+}
+
+h4 {
     font-size: 1.424rem;
     line-height: 2rem;
 }
 
-h4 {
+h5 {
     font-size: 1.602rem;
 }
 
-h5 {
-    font-size: 1.802rem;
+p {
+    font-size: 0.889rem;
 }
 
-p {
+.social-media-item {
     font-size: 1rem;
 }
-
-.social-media-item {font-size: 1rem;}
 
 a {
     text-decoration: none;
@@ -85,191 +88,215 @@ a:active {
 
 /* holding page */
 
-    .header {
-        background: yellowgreen;
-        min-height: 5vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        position: sticky;
-        top: 1rem;
-    }
+.header {
+    background: yellowgreen;
+    min-height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 1rem;
+}
 
-    .navblack {
-        height: 0.1rem;
-        margin-left: 0rem;
-        margin-right: 0rem;
-        position: sticky;
-        top: 11vh;
-        border: 0rem;
-        background: #000;
-    }
+.navblack {
+    height: 0.1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    position: sticky;
+    top: 11vh;
+    border: 0rem;
+    background: #000;
+}
 
-    .main {
-        background: lightblue;
-        flex: 1;
-        width: 100%;
-    }
+.main {
+    background: lightblue;
+    flex: 1;
+    width: 100%;
+}
 
-    .footer {
-        background: salmon;
-        min-height: 10vh;
-        border-top: 1px solid black;
-        display: flex;
-        align-items: center;
-    }
+.footer {
+    background: salmon;
+    min-height: 10vh;
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+}
 
-    .logo {
-        width: 5rem;
-        background: red;
-    }
+.logo {
+    width: 5rem;
+    background: red;
+}
 
-    .navigation-menu {
-        background: skyblue;
-        display: flex;
-        flex-direction: row;
-        width: 8rem;
-        justify-content: space-between;
-    }
+.navigation-menu {
+    background: skyblue;
+    display: flex;
+    flex-direction: row;
+    width: 8rem;
+    justify-content: space-between;
+}
 
-    .work-grid {
-        display: grid;
-        width: 100%;
-        grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-        grid-gap: 1rem;
-    }
+.work-grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-gap: 1rem;
+}
 
-    img {
-        height: 100%;
-    }
+img {
+    height: 100%;
+}
 
-    .grid-item-1 {
-        width: 100%;
-        background: yellowgreen;
-        min-height: 450px;
-    }
+.grid-item-1 {
+    width: 100%;
+    background: yellowgreen;
+    min-height: 450px;
+}
 
-    .grid-item-2 {
-        width: 100%;
-        background: yellowgreen;
-        min-height: 450px;
-    }
+.grid-item-2 {
+    width: 100%;
+    background: yellowgreen;
+    min-height: 450px;
+}
 
-    .grid-item-3 {
-        width: 100%;
-        background: yellowgreen;
-        min-height: 450px;
-    }
+.grid-item-3 {
+    width: 100%;
+    background: yellowgreen;
+    min-height: 450px;
+}
 
-    .grid-item-4 {
-        width: 100%;
-        background: yellowgreen;
-        min-height: 450px;
-    }
+.grid-item-4 {
+    width: 100%;
+    background: yellowgreen;
+    min-height: 450px;
+}
 
-    .grid-item-5 {
-        width: 100%;
-        background: yellowgreen;
-        min-height: 450px;
-    }
+.grid-item-5 {
+    width: 100%;
+    background: yellowgreen;
+    min-height: 450px;
+}
 
-    .grid-item-6 {
-        width: 100%;
-        background: yellowgreen;
-        min-height: 450px;
-    }
+.grid-item-6 {
+    width: 100%;
+    background: yellowgreen;
+    min-height: 450px;
+}
 
-    .grid-item-7 {
-        width: 100%;
-        background: yellowgreen;
-        min-height: 450px;
-    }
+.grid-item-7 {
+    width: 100%;
+    background: yellowgreen;
+    min-height: 450px;
+}
 
-    .grid-item-8 {
-        width: 100%;
-        background: yellowgreen;
-        min-height: 450px;
-    }
+.grid-item-8 {
+    width: 100%;
+    background: yellowgreen;
+    min-height: 450px;
+}
 
-    .grid-item-9 {
-        width: 100%;
-        background: yellowgreen;
-        min-height: 450px;
-    }
+.grid-item-9 {
+    width: 100%;
+    background: yellowgreen;
+    min-height: 450px;
+}
 
-    .grid-item-10 {
-        width: 100%;
-        background: yellowgreen;
-        min-height: 450px;
-    }
+.grid-item-10 {
+    width: 100%;
+    background: yellowgreen;
+    min-height: 450px;
+}
 
-    .grid-item-11 {
-        width: 100%;
-        background: yellowgreen;
-        min-height: 450px;
-    }
+.grid-item-11 {
+    width: 100%;
+    background: yellowgreen;
+    min-height: 450px;
+}
 
-    .grid-item-12 {
-        width: 100%;
-        background: yellowgreen;
-        min-height: 450px;
-    }
+.grid-item-12 {
+    width: 100%;
+    background: yellowgreen;
+    min-height: 450px;
+}
 
-    /*about page*/
+/*about page*/
 
-    .about-container {
-        background: lightblue;
-        display: grid;
-        grid-template-columns: 1fr;
-    }
+.about-container {
+    background: lightblue;
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
-    .bio {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-    }
+.bio {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
-    .experience {
-        margin-bottom: 2rem;
-    }
+.experience {
+    margin-bottom: 2rem;
+}
 
-    .education {
-        margin-bottom: 2rem;
-    }
+.education {
+    margin-bottom: 2rem;
+}
 
-    .awards-or-recognition {
-        margin-bottom: 1rem;
-    }
+.awards-or-recognition {
+    margin-bottom: 1rem;
+}
 
-    .contact {
-        margin-bottom: 2rem;
-    }
+.contact {
+    margin-bottom: 2rem;
+}
 
-    .social-media-item {
-        font-size: 1.125rem;
-        margin-bottom: 0.5rem;
-    }
+.social-media-item {
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
 
-    .main-heading-experience {
-        margin-bottom: 1rem;
-    }
+.first-experience {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
 
-    .main-heading-education {
-        margin-bottom: 1rem;
-    }
+.first-education {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
 
-    .main-heading-awards-or-recognition {
-        margin-bottom: 1rem;
-    }
+.first-awards-or-recognition {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
 
-    .job-date {
-        margin-bottom: 1.5rem;
-    }
+.second-awards-or-recognition {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
 
-    .awards-or-regconition-date {
-        margin-bottom: 1.5rem;
-    }
-    
+.main-heading-experience {
+    margin-bottom: 1rem;
+}
+
+.main-heading-education {
+    margin-bottom: 1rem;
+}
+
+.main-heading-awards-or-recognition {
+    margin-bottom: 1rem;
+}
+
+.job-date {
+    margin-bottom: 1rem;
+}
+
+.awards-or-recognition-date {
+    margin-bottom: 1rem;
+}
+
 
 /* Adjustments for desktop start here */
 
