@@ -8,10 +8,17 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body class="about-page">
     <header class="header">
-        <figure class="logo"><a href="work.html"><img src="assets/quoc-huy-anh-nguyen-logo.svg"
-                    alt="Quoc Huy Anh Nguyen Logo"></a></figure>
+        <figure class="logo-wrapper"><a href="work.html">
+                <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 214.79 132.26">
+                    <g id="Icon">
+                        <polygon class="logo-white" points="6.93 79.45 53.49 79.45 46.55 132.26 0 132.26 6.93 79.45" />
+                        <polygon class="logo-white" points="63.92 0 56.98 52.81 10.43 52.81 17.37 0 63.92 0" />
+                        <path class="logo-white"
+                            d="m197.42,0h-93.58l-17.37,132.26h38.33l2.56-19.51h46.54l2.56,19.51h38.33L197.42,0Zm-66.57,86.11l6.27-47.8h27.04l6.26,47.8h-39.57Z" />
+                    </g>
+                </svg></a></figure>
         <ul class="navigation-menu">
             <li class="navigation-menu-item"><a href="blog.html">Blog</a></li>
             <li class="navigation-menu-item"><a href="about.html">About</a></li>
@@ -19,52 +26,71 @@
     </header>
 
     <main class="main">
-        <ul class="about-container">
-            <li class="bio">
-                <h4>I'm Huy Anh (Alex), a billingual UX/UI designer who persistently seeking ways to improve himself as
-                    a person and a creative collaborator.</h4>
-            </li>
+        <div class="about-wrapper">
+            <ul class="about-bio-contact-container">
+                <li class="about-section">
+                    <div class="bio-photo-area">
+                        <h4>I'm Huy Anh (Alex), a billingual UX/UI designer who persistently seeking ways to improve
+                            himself
+                            as
+                            a person and a creative collaborator.</h4>
+                        <figure class="about-photo">
+                            <img src="assets/project-pace-quoc-huy-anh-nguyen.png" alt="Project Pace"></figure>
+                    </div>
+                </li>
 
-            <li class="contact">
-                <ul class="social-media-list">
-                    <li class="social-media-item"><a href="https://www.ideaschoolofdesign.com/" class="about"
-                            target="_blank">nguyenquochuyanh1903@gmail.com</a></li>
-                    <li class="social-media-item"><a href="linkedin.com/in/quochuyanhnguyen/" class="about"
-                            target="_blank">linkedin.com/in/quochuyanhnguyen/</a></li>
-                    <li class="social-media-item"><a href="https://www.instagram.com/huyanh.jpeg/" class="about"
+                <li class="about-section">
+                    <ul class="social-media-list">
+                        <li class="social-media-item"><a href="https://www.ideaschoolofdesign.com/" class="about"
+                                target="_blank">nguyenquochuyanh1903@gmail.com</a></li>
+                        <li class="social-media-item"><a href="linkedin.com/in/quochuyanhnguyen/" class="about"
+                                target="_blank">linkedin.com/in/quochuyanhnguyen/</a></li>
+                        <li class="social-media-item"><a href="https://www.instagram.com/huyanh.jpeg/" class="about"
                                 target="_blank">@huyanh.jpeg</a></li>
-                </ul>
-            </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="about-experience-education-awards-recognition-container">
+                <li class="about-section">
+                    <h1 class="about-heading">Experience</h1>
 
-            <li class="experience">
-                <h1 class="main-heading-experience">Experience</h1>
-                <p class="job-position-1">Junior Graphic Design Intern</p>
-                <p class="business-name"><a href="https://h18.com/" class="about" target="_blank">Hangar 18 Design Continuum</a></p>
-                <p class="job-date">May 2020 - August 2020</p>
-                <p class="job-position-2">Freelance Photographer</p>
-            </li>
+                    <div class="about-item-wrapper">
+                        <p class="about-item">Junior Graphic Design Intern</p>
+                        <p class="about-item"><a href="https://h18.com/" class="about" target="_blank">Hangar 18 Design
+                                Continuum</a></p>
+                        <p class="about-item">May 2020 - August 2020</p>
+                    </div>
+                    <p class="about-item">Freelance Photographer</p>
+                </li>
 
-            <li class="education">
-                <h1 class="main-heading-education">Education</h1>
-                <p class="program-name-1">Bachelor of Visual Communication Design</p>
-                <p class="school-name"><a href="https://www.ideaschoolofdesign.com/" class="about"
-                        target="_blank">Capilano University</a></p>
-                <p class="program-date">2020 - 2024</p>
-            </li>
+                <li class="about-section">
+                    <h1 class="about-heading">Education</h1>
+                    <div class="about-item-wrapper">
+                        <p class="about-item">Bachelor of Visual Communication Design</p>
+                        <p class="about-item"><a href="https://www.ideaschoolofdesign.com/" class="about"
+                                target="_blank">Capilano University</a></p>
+                        <p class="about-item">2020 - 2024</p>
+                    </div>
+                </li>
 
-            <li class="awards-or-recognition">
-                <h1 class="main-heading-awards-or-recognition">Awards & Recognition</h1>
-                <p class="awards-or-recognition-title-1">RGD Student Award Winner</p>
-                <p class="awards-or-recognition-link"><a href="https://www.rgd.ca/2021/09/01/design-de-plume-award-for-indigenous-design-winner-end-stolen-choices.php"
-                    class="about" target="_blank">Design De Plume</a></p>
-                <p class="awards-or-recognition-date">August 2022</p>
-                <p class="awards-or-recognition-title-2">Capilano’s University Dean List</p>
-                <p class="awards-or-recognition-date">Fall & Spring Term 2020 - 2022</p>
-                
-            </li>
-        </ul>
+                <li class="about-section">
+                    <h1 class="about-heading">Awards & Recognition</h1>
+                    <div class="about-item-wrapper">
+                        <p class="about-item">RGD Student Award Winner</p>
+                        <p class="about-item"><a
+                                href="https://www.rgd.ca/2021/09/01/design-de-plume-award-for-indigenous-design-winner-end-stolen-choices.php"
+                                class="about" target="_blank">Design De Plume</a></p>
+                        <p class="about-item">August 2022</p>
+                    </div>
+                    <div class="about-item-wrapper">
+                        <p class="about-item">Capilano’s University Dean List</p>
+                        <p class="about-item">Fall & Spring Term 2020 - 2022</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </main>
-    <footer class="footer">© nguyenquochuyanh 2023</footer>
+    <footer class="footer">© Quoc Huy Anh Nguyen 2023-2024. All rights reserved.</footer>
 </body>
 
 </html>
