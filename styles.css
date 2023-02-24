@@ -209,9 +209,10 @@ a:active {
     width: 100%;
     min-height: 450px;
 }
-
+.grid-item-4, .grid-item-8, .grid-item-12 {background: yellowgreen;}
 /* about page */
 
+.empty-cell {width: 100%; min-height: 450px; background: black;}
 .about-page {
     background: var(--accent-color);
 }
@@ -306,20 +307,14 @@ a:active {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
-    .work-grid {
-        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    }
 
 
-
-
+x
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
-    .work-grid {
-        grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
-    }
+
 
 
 }
