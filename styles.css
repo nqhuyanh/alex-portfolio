@@ -39,16 +39,21 @@ img {
 }
 
 
-/* link states for work page */
+/* link states for work page and project page */
 
-.work-page a {
+.work-page a,
+.project-page a {
     text-decoration: none;
 }
 
 .work-page a:link,
 .work-page a:visited,
 .work-page a:active,
-.work-page a:hover {
+.work-page a:hover,
+.project-page a:link,
+.project-page a:visited,
+.project-page a:active,
+.project-page a:hover {
     color: var(--accent-color);
 }
 
@@ -75,6 +80,7 @@ h1 {
 
 h2 {
     font-size: 1.125rem;
+    line-height: 2rem;
 }
 
 h3 {
@@ -195,9 +201,52 @@ p {
 .grid-item-12 {
     width: 100%;
     min-height: 450px;
-    background: hotpink;
 }
 
+
+/* project page */
+
+.project-wrapper,
+.project-aside-area,
+.project-info,
+.project-image,
+.project-image-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem 0 4rem 0;
+}
+
+.navigation-arrow {
+    width: 3rem;
+    fill: #044C4A;
+}
+
+.project-image-container {
+    gap: 1rem;
+}
+
+.project-title {
+    margin-bottom: 2rem;
+}
+
+.project-description {
+    margin-bottom: 1rem;
+}
+
+.project-footer {
+        min-height: 10vh;
+        border-top: 4px solid #044C4A;
+        display: flex;
+        align-items: center;
+        color: #044C4A;
+        background-color: var(--background-color);
+    }
 
 /* about page */
 
@@ -274,16 +323,6 @@ p {
 
 @media only screen and (min-width: 992px) {
 
-    .navblack {
-        height: 0.1rem;
-        margin-left: 0rem;
-        margin-right: 0rem;
-        position: sticky;
-        top: 10vh;
-        border: 0rem;
-        background: #000;
-    }
-
     .about-wrapper {
         flex-direction: row;
     }
@@ -303,4 +342,31 @@ p {
         padding: 1rem;
     }
 
+    .project-wrapper {
+        flex-direction: row;
+    }
+
+    .project-aside-area {
+        justify-content: space-between;
+        position: sticky;
+        top: 12.5vh;
+        width: 30%;
+        height: 100%;
+    }
+
+    .project-image-container {
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        width: 70%;
+    }
+
+    .project-image {
+        max-width: 750px;
+    }
+
+    .project-navigation {
+        margin-top: 2rem;
+        width: 10rem;
+    }
 }
