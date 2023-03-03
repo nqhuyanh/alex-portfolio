@@ -39,10 +39,11 @@ img {
 }
 
 
-/* link states for work page and project page */
+/* link states for work page and project page and blog page */
 
 .work-page a,
-.project-page a {
+.project-page a,
+.blog-page a {
     text-decoration: none;
 }
 
@@ -53,7 +54,11 @@ img {
 .project-page a:link,
 .project-page a:visited,
 .project-page a:active,
-.project-page a:hover {
+.project-page a:hover,
+.blog-page a:link,
+.blog-page a:visited,
+.blog-page a:active,
+.blog-page a:hover {
     color: var(--accent-color);
 }
 
@@ -89,7 +94,7 @@ h3 {
 
 h4 {
     font-size: 1.424rem;
-    line-height: 2.5rem;
+    line-height: 3rem;
 }
 
 h5 {
@@ -232,7 +237,9 @@ p {
 }
 
 .project-title {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    font-size: 2.5rem;
 }
 
 .project-description {
@@ -346,6 +353,11 @@ p {
         flex-direction: row;
     }
 
+    .project-title {
+        font-size: 3.8rem;
+        line-height: 4.5rem;
+    }
+
     .project-aside-area {
         justify-content: space-between;
         position: sticky;
@@ -356,13 +368,13 @@ p {
 
     .project-image-container {
         flex-direction: column;
-        align-content: center;
+        align-content: flex-end;
         flex-wrap: wrap;
         width: 70%;
     }
 
     .project-image {
-        max-width: 750px;
+        max-width: 1000px;
     }
 
     .project-navigation {
